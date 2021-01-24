@@ -5,6 +5,7 @@
     background-position: center;
     padding: $medium-padding;
 
+
     & .header__navbar {
         margin: 0 auto;
         max-width: $grid-width;
@@ -24,42 +25,33 @@
 
             & .header__nav-item {
                 display: inline-block;
-                margin: 0 2rem;
+                margin: 0 $medium-margin;
             }
         }
     }
 
     & .hero-section {
-        width: 42.5%;
+        width: 43%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         text-align: center;
         padding-top: 20rem;
         margin: 0 auto;
+        font-size: 1.6rem;
+        font-weight: 400;
 
         & .hero__title {
             margin-bottom: 0.5rem;
         }
 
-        & .btn {
-            color: $primary-color;
-            width: 10.5rem;
-            height: 3rem;
-            text-decoration: none;
-            display: inline-block;
-            margin: 2rem auto 6rem;
-            background-color: rgba(255, 101, 101, 1);
-            border-radius: 3rem;
-            padding: 0.9rem 1rem;
-
-            & p {
-                text-transform: uppercase;
-                
-            }
-        }
+        
+        & .sub-button {
+            line-height: 2.8rem;
+            
         
     }
 
+    }
 
 }
